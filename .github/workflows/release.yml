@@ -10,6 +10,7 @@ permissions: {}
 jobs:
   release:
     name: "Release"
+    if: ${{ false }}
     runs-on: "ubuntu-latest"
     permissions:
       contents: write
